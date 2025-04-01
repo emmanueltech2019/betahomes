@@ -83,7 +83,7 @@
                          border-radius: 0;
                          &.active {
                               color: hsl(var(--white));
-                              background-color: #a71e2f;
+                              background-color: #E20000;
                               border: none;
                               border-radius: 0;
                          }
@@ -361,8 +361,8 @@
                &:checked{
                    & ~ label{
                        &::after{
-                           background-color: #a71e2f;
-                           border-color: #a71e2f;
+                           background-color: #E20000;
+                           border-color: #E20000;
                        }
                        &::before{
                            visibility: visible;
@@ -442,7 +442,7 @@
      font-weight: 400;
      font-size: 16px;
      &:focus {
-          border-color: #a71e2f;
+          border-color: #E20000;
      }
 }
 

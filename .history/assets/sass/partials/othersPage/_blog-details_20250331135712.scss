@@ -9,7 +9,7 @@
     &__date {
         padding: 10px 20px;
         border-radius: 0 0 0 5px;
-        background: #a71e2f;
+        background: #E20000;
         color: hsl(var(--white));
         @include font-18; 
         position: absolute;
@@ -50,7 +50,7 @@
 
 .blog-infos {
     padding: 15px 12px;
-    background: #a71e2f;
+    background: #E20000;
     display: inline-flex;
     align-items: center;
     border-radius: 0 0 5px 5px ;
@@ -108,7 +108,7 @@
             content: "";
             width: 40px;
             height: 2px;
-            background: #a71e2f;
+            background: #E20000;
             top: 50%;
             transform: translateY(-50%);
             left: 0;
@@ -176,7 +176,7 @@
             align-items: center;
             font-size: 8px;
             color: hsl(var(--white));
-            background: #a71e2f;
+            background: #E20000;
             border-radius: 50%;
             flex-shrink: 0;
         }

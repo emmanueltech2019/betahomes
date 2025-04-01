@@ -16,7 +16,7 @@
      &-overlay {
           width: 96%;
           height: 100%;
-          background: #a71e2f;
+          background: #E20000;
           z-index: -1;
           position: absolute;
           top: 0;
@@ -47,7 +47,7 @@
                border-radius: 50%;
                transition: .4s;
                &:hover {
-                    background: #a71e2f;
+                    background: #E20000;
                }
           }
      }
@@ -58,7 +58,7 @@
                filter: brightness(0) invert(1);
           }
           &:hover {
-               color: #a71e2f !important;
+               color: #E20000 !important;
           }
      }
      &-arrow-box {

@@ -41,7 +41,7 @@
      &-overlay {
           width: 90%;
           height: 55px;
-          background: #a71e2f;
+          background: #E20000;
           z-index: -1;
           position: absolute;
           top: 30px;
@@ -81,7 +81,7 @@
           & .star-rating {
                & .star-rating__item {
                     font-size: 1rem;
-                    color: #a71e2f;
+                    color: #E20000;
                }
           }
           & .review-paragraph {
@@ -116,7 +116,7 @@
                     display: none;
                }
                &-active {
-                    background: #a71e2f;
+                    background: #E20000;
                     position: relative;
                     &::before {
                          content: "";
@@ -128,7 +128,7 @@
                          height: 20px;
                          background: transparent;
                          border-radius: 50%;
-                         border: 1px solid #a71e2f;
+                         border: 1px solid #E20000;
                     }
                }
           }

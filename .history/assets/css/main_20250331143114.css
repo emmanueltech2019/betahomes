@@ -1806,7 +1806,7 @@ button:focus {
   border-radius: inherit;
 }
 .btn-main::after {
-  background: #073762;
+  background: #0014a8;
   visibility: hidden;
   opacity: 0;
 }
@@ -2734,7 +2734,7 @@ input[type=number] {
 /* ====================== Section Heading En d==================== */
 /* ============= Header Start Here ======================= */
 .header {
-  background-color: #073762;
+  background-color: #0014a8;
   transition: 0.2s linear;
 }
 
@@ -2756,7 +2756,7 @@ input[type=number] {
   z-index: 9;
   backdrop-filter: blur(24px);
   animation: slideDown 0.35s ease-out;
-  background-color: #073762!important;
+  background-color: #0014a8!important;
   box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
 }
 @media screen and (max-width: 991px) {
@@ -3414,13 +3414,13 @@ input[type=number] {
 /* ================================= Header Css End =========================== */
 /* ==================== Common Header Css Start ======================== */
 .dark-header {
-  background-color: #073762;
+  background-color: #0014a8;
 }
 .dark-header.has-border {
   border-bottom: 1px solid hsl(var(--white)/0.1);
 }
 .dark-header.fixed-header {
-  background-color: #073762!important;
+  background-color: #0014a8!important;
 }
 .dark-header .toggle-mobileMenu {
   color: hsl(var(--white));
@@ -4054,7 +4054,7 @@ input[type=number] {
 /* ============= Footer Start Here ======================= */
 .footer {
   margin-top: auto;
-  background-color: #073762;
+  background-color: #0014a8;
 }
 
 .footer-item__desc {
@@ -5357,7 +5357,7 @@ button.slick-next {
   content: "";
   width: clamp(6.25rem, 0.858rem + 20.349vw, 10.625rem);
   height: 100%;
-  background: #073762;
+  background: #0014a8;
   left: 0px;
   top: 50%;
   transform: translateY(-50%);

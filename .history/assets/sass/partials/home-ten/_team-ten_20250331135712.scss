@@ -109,7 +109,7 @@
                   }
               }
               &.active {
-                border-bottom: 2px solid #a71e2f;
+                border-bottom: 2px solid #E20000;
             }
           }
           &-content{
@@ -164,7 +164,7 @@
                      transition: all 0.3s, background-size 0.8s;
                      &:hover {
                          background-size: 100% 1px;
-                         color: #a71e2f;
+                         color: #E20000;
                      }
                   } 
               }

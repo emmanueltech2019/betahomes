@@ -67,7 +67,7 @@
                 left: 0;
                 top: 0;
                 z-index: -1;
-                background: #a71e2f;
+                background: #E20000;
                 visibility: hidden;
                 opacity: 0;
                 transition: .2s linear;
@@ -103,7 +103,7 @@
             @extend .text-gradient; 
         }
         &.active {
-            background: #a71e2f;
+            background: #E20000;
             color: hsl(var(--white));
             -webkit-text-fill-color: hsl(var(--white));
         }

@@ -2125,7 +2125,7 @@
     // 4.1. Basic color keywords
     aqua: "#00ffff",
     black: "#000000",
-    blue: "#073762",
+    blue: "#0014a8",
     fuchsia: "#ff00ff",
     gray: "#808080",
     green: "#008000",

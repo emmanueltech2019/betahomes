@@ -59,7 +59,7 @@
           gap: 15px;
           align-items: center;
           &:hover {
-               color: #a71e2f !important;
+               color: #E20000 !important;
           }
      }
      &-dots {
@@ -74,7 +74,7 @@
                     display: none;
                }
                &-active {
-                    background: #a71e2f;
+                    background: #E20000;
                     position: relative;
                     &::before {
                          content: "";
@@ -86,7 +86,7 @@
                          height: 20px;
                          background: transparent;
                          border-radius: 50%;
-                         border: 1px solid #a71e2f;
+                         border: 1px solid #E20000;
                     }
                }
           }
