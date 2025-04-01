@@ -1,0 +1,697 @@
+<!DOCTYPE html> 
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title -->
+    <title>Beta-Homes Real Estate Html Template</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
+    <!-- Magnific popup css -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css.css" />
+    <!-- Slick -->
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <!-- line awesome -->
+    <link rel="stylesheet" href="assets/css/line-awesome.min.css" />
+    <!-- Image Uploader -->
+    <link rel="stylesheet" href="assets/css/image-uploader.min.css" />
+    <!-- jQuery Ui Css -->
+    <link rel="stylesheet" href="assets/css/jquery-ui.css" />
+    <!-- Main css -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+
+  <body>
+    <!--==================== Preloader Start ====================-->
+    <div class="preloader">
+      <div class="loader"></div>
+    </div>
+    <!--==================== Preloader End ====================-->
+
+    <!--==================== Overlay Start ====================-->
+    <div class="overlay"></div>
+    <!--==================== Overlay End ====================-->
+
+    <!--==================== Sidebar Overlay End ====================-->
+    <div class="side-overlay"></div>
+    <!--==================== Sidebar Overlay End ====================-->
+
+    <!-- ==================== Scroll to Top End Here ==================== -->
+    <div class="progress-wrap">
+      <svg
+        class="progress-circle svg-content"
+        width="100%"
+        height="100%"
+        viewBox="-1 -1 102 102"
+      >
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+      </svg>
+    </div>
+    <!-- ==================== Scroll to Top End Here ==================== -->
+
+    <!-- ==================== Mobile Menu Start Here ==================== -->
+    <div class="mobile-menu d-lg-none d-block">
+      <button type="button" class="close-button">
+        <i class="las la-times"></i>
+      </button>
+      <div class="mobile-menu__inner">
+        <a href="index.html" class="mobile-menu__logo">
+          <h3>Beta-Homes</h3>
+        </a>
+        <div class="mobile-menu__menu">
+          <ul class="nav-menu flx-align nav-menu--mobile">
+            <li class="nav-menu__item">
+              <a href="index.html" class="nav-menu__link">Home</a>
+            </li>
+            <li class="nav-menu__item">
+              <a href="about.html" class="nav-submenu__link"> About Us</a>
+            </li>
+            <li class="nav-menu__item">
+              <a href="property.html" class="nav-submenu__link"> Property</a>
+            </li>
+            <li class="nav-menu__item">
+              <a href="project.html" class="nav-submenu__link"> Gallery </a>
+            </li>
+            <li class="nav-menu__item">
+              <a href="blog-classic.html" class="nav-submenu__link"> Blog</a>
+            </li>
+            <li class="nav-menu__item activePage">
+              <a href="contact.html" class="nav-menu__link">Contact</a>
+            </li>
+            <li class="nav-menu__item">
+              <a href="faq.html" class="nav-menu__link">FAQs</a>
+            </li>
+          </ul>
+          <a href="#" class="btn btn-outline-light d-lg-none d-block mt-4"
+            >Call Us
+            <span class="icon-right text-gradient">
+              <i class="fas fa-arrow-right"></i>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- ==================== Mobile Menu End Here ==================== -->
+
+    <!-- ==================== Right Offcanvas Start Here ==================== -->
+    <div class="common-offcanvas d-lg-block d-none">
+      <div class="flx-between">
+        <a href="index.html" class="mobile-menu__logo">
+          <h3 style="color: white;">Beta-Homes</h3>
+        </a>
+        <button
+          type="button"
+          class="close-button d-flex position-relative top-0 end-0"
+        >
+          <i class="las la-times"></i>
+        </button>
+      </div>
+
+      <div class="search-box mt-5">
+        <form action="#">
+          <input
+            type="text"
+            class="common-input common-input--light"
+            placeholder="Search..."
+          />
+          <button type="submit" class="icon">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+      </div>
+
+      <ul class="address-list mt-5">
+        <li class="address-list__item flx-align">
+          <span class="address-list__icon"
+            ><i class="fas fa-map-marker-alt"></i
+          ></span>
+          <div class="address-list__content">
+            <p class="address-list__text">
+              Lagos,<br />
+              Nigeria
+            </p>
+          </div>
+        </li>
+        <li class="address-list__item flx-align">
+          <span class="address-list__icon"> <i class="fas fa-phone"></i></span>
+          <div class="address-list__content">
+            <a href="tel:" class="address-list__text">+(234) 000 000 0000 </a>
+            <a href="tel:" class="address-list__text">+(234) 000 000 0000 </a>
+          </div>
+        </li>
+        <li class="address-list__item flx-align">
+          <span class="address-list__icon">
+            <i class="fas fa-envelope"></i
+          ></span>
+          <div class="address-list__content">
+            <a href="mailto:" class="address-list__text">
+              info@beta-homes.com</a
+            >
+            <a href="mailto:" class="address-list__text"
+              >info.example@beta-homes.com</a
+            >
+          </div>
+        </li>
+      </ul>
+
+      <div class="google-map mt-5">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d1511.2499674845235!2d-73.99553882767792!3d40.75102778252164!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1686536419224!5m2!1sen!2sbd"
+          loading="lazy"
+          class="w-100 h-100"
+        ></iframe>
+      </div>
+
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            href="https://www.facebook.com"
+            class="social-list__link flx-center"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a
+            href="https://www.twitter.com"
+            class="social-list__link flx-center"
+          >
+            <i class="fab fa-twitter"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a
+            href="https://www.linkedin.com"
+            class="social-list__link flx-center"
+          >
+            <i class="fab fa-linkedin-in"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a
+            href="https://www.pinterest.com"
+            class="social-list__link flx-center"
+          >
+            <i class="fab fa-instagram"></i
+          ></a>
+        </li>
+      </ul>
+    </div>
+    <!-- ==================== Right Offcanvas End Here ==================== -->
+
+    <div class="floating-chat">
+      <button type="button" class="floating-chat__icon">
+        <i class="fa fa-comments"></i>
+      </button>
+
+      <div class="floating-chat__box">
+        <div class="floating-chat__box--inner">
+          <div class="floating-chat__header">
+            <span class="floating-chat____title"> What's on your mind? </span>
+            <button class="floating-chat__close">
+              <i class="fa fa-times"></i>
+            </button>
+          </div>
+          <ul class="floating-chat__list">
+            <li class="floating-chat__item other">
+              <img
+                src="assets/images/thumbs/user-img1.png"
+                alt=""
+                class="floating-chat__img"
+              />
+              <p class="floating-chat__text">Hey! How are you doing?</p>
+            </li>
+            <li class="floating-chat__item self">
+              <img
+                src="assets/images/thumbs/user-img2.png"
+                alt=""
+                class="floating-chat__img"
+              />
+              <p class="floating-chat__text">Hello! I am doing well</p>
+            </li>
+            <li class="floating-chat__item other">
+              <img
+                src="assets/images/thumbs/user-img1.png"
+                alt=""
+                class="floating-chat__img"
+              />
+              <p class="floating-chat__text">Hey! How are you doing?</p>
+            </li>
+            <li class="floating-chat__item self">
+              <img
+                src="assets/images/thumbs/user-img2.png"
+                alt=""
+                class="floating-chat__img"
+              />
+              <p class="floating-chat__text">Hello! I am doing well</p>
+            </li>
+            <li class="floating-chat__item other">
+              <img
+                src="assets/images/thumbs/user-img1.png"
+                alt=""
+                class="floating-chat__img"
+              />
+              <p class="floating-chat__text">Hey! How are you doing?</p>
+            </li>
+            <li class="floating-chat__item self">
+              <img
+                src="assets/images/thumbs/user-img2.png"
+                alt=""
+                class="floating-chat__img"
+              />
+              <p class="floating-chat__text">Hello! I am doing well</p>
+            </li>
+          </ul>
+          <div class="floating-chat__footer">
+            <input
+              type="text"
+              class="common-input common-input--sm flex-grow-1"
+              placeholder="Write Message"
+            />
+            <button class="btn btn-main btn-sm flex-shrink-0">send</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== Header Start Here ==================== -->
+    <header class="header dark-header has-border">
+      <div class="container container-two">
+        <nav class="header-inner flx-between">
+          <!-- Logo Start -->
+          <div class="logo">
+            <a href="index.html" class="link">
+              <h3 style="margin-top: 20px; color: white">Beta-Homes</h3>
+            </a>
+          </div>
+          <!-- Logo End  -->
+
+          <!-- Menu Start  -->
+          <div class="header-menu d-lg-block d-none">
+            <ul class="nav-menu flx-align">
+              <li class="nav-menu__item">
+                <a href="index.html" class="nav-menu__link">Home</a>
+              </li>
+              <li class="nav-menu__item">
+                <a href="about.html" class="nav-submenu__link"> About Us</a>
+              </li>
+              <li class="nav-menu__item">
+                <a href="property.html" class="nav-submenu__link">
+                  Properties</a
+                >
+              </li>
+              <li class="nav-menu__item">
+                <a href="project.html" class="nav-submenu__link"> Gallery </a>
+              </li>
+              <li class="nav-menu__item">
+                <a href="blog-classic.html" class="nav-submenu__link"> Blog</a>
+              </li>
+              <li class="nav-menu__item activePage">
+                <a href="contact.html" class="nav-menu__link">Contact</a>
+              </li>
+              <li class="nav-menu__item">
+                <a href="faq.html" class="nav-menu__link">FAQs</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="header-right flx-align">
+            <button type="button" class="offcanvas-btn d-lg-block d-none">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="24"
+                viewBox="0 0 30 24"
+                fill="none"
+              >
+                <line
+                  x1="0.0078125"
+                  y1="12.293"
+                  x2="30.0078"
+                  y2="12.293"
+                  stroke="#fff"
+                  stroke-width="3"
+                />
+                <path
+                  d="M5.00781 22.293H30.0078"
+                  stroke="#fff"
+                  stroke-width="3"
+                />
+                <path
+                  d="M10.0078 2.29297H30.0078"
+                  stroke="#fff"
+                  stroke-width="3"
+                />
+              </svg>
+            </button>
+            <a
+              href="property-details.html"
+              class="btn btn-outline-light d-lg-block d-none"
+              ><span style="color: white">Call Us</span>
+              <span class="icon-right text-gradient icon">
+                <i class="fas fa-arrow-right"></i>
+              </span>
+            </a>
+            <button type="button" class="toggle-mobileMenu d-lg-none ms-3">
+              <i class="las la-bars"></i>
+            </button>
+          </div>
+          <!-- Header Right End  -->
+        </nav>
+      </div>
+    </header>
+    <!-- ==================== Breadcrumb End Here ==================== -->
+
+    <!-- ============================= Contact Top Section Start ======================= -->
+    <section class="contact-top padding-y-120">
+      <div class="container container-two">
+        <div class="section-heading">
+          <span class="section-heading__subtitle bg-gray-100">
+            <span class="text-gradient fw-semibold">Contact</span>
+          </span>
+          <h2 class="section-heading__title">Contact Us!</h2>
+        </div>
+        <div class="row gy-4">
+          <div class="col-lg-4 col-sm-6">
+            <div class="contact-card">
+              <span class="contact-card__icon"
+                ><i class="fas fa-paper-plane"></i
+              ></span>
+              <h5 class="contact-card__title">Email</h5>
+              <p class="contact-card__text font-18">
+                <a href="mailto:" class="link" style="color: black;">michelle.rivera@example.com</a>
+              </p>
+              <p class="contact-card__text font-18">
+                <a href="mailto:" class="link" style="color: black;">michelle.rivera@example.com</a>
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="contact-card">
+              <span class="contact-card__icon"
+                ><i class="fas fa-map-marker-alt"></i
+              ></span>
+              <h5 class="contact-card__title">Location</h5>
+              <p class="contact-card__text font-18" style="color: black;">
+                Lagos, Nigeria
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="contact-card">
+              <span class="contact-card__icon"
+                ><i class="fas fa-phone"></i
+              ></span>
+              <h5 class="contact-card__title">Contacts</h5>
+              <p class="contact-card__text font-18" style="color: black;">
+                <a href="mailto:" class="link"> 000 0000 000</a>
+              </p>
+              <p class="contact-card__text font-18" style="color: black;">
+                <a href="mailto:" class="link"> 000 0000 000 </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ============================= Contact Top Section End ======================= -->
+
+    <div class="contact-map address-map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1150112.1628856962!2d44.64619029447154!3d23.086651461779507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43348a67e24b%3A0xff45e502e1ceb7e2!2sBurj%20Khalifa!5e0!3m2!1sen!2sbd!4v1707037970965!5m2!1sen!2sbd"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+
+    <section class="contact-us-section padding-b-120">
+      <div class="container container-two">
+        <div class="contact-form bg-white">
+          <div class="section-heading">
+            <span class="section-heading__subtitle bg-gray-100">
+              <span class="text-gradient fw-semibold">Contact us</span>
+            </span>
+          </div>
+          <form action="#" class="contact-form__form">
+            <div class="row gy-4">
+              <div class="col-sm-6 col-xs-6">
+                <input
+                  type="text"
+                  class="common-input"
+                  placeholder="Your Name"
+                />
+              </div>
+              <div class="col-sm-6 col-xs-6">
+                <input
+                  type="email"
+                  class="common-input"
+                  placeholder="Your E-mail"
+                />
+              </div>
+              <div class="col-sm-6 col-xs-6">
+                <input
+                  type="tel"
+                  class="common-input"
+                  placeholder="Phone Number"
+                />
+              </div>
+              <div class="col-sm-6 col-xs-6">
+                <input type="text" class="common-input" placeholder="Subject" />
+              </div>
+              <div class="col-12">
+                <textarea
+                  class="common-input"
+                  placeholder="Your Message"
+                ></textarea>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-main w-100">
+                  Submit Now
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================= CTA section Start ===================== -->
+    <section class="cta padding-b-120">
+      <div class="container container-two">
+        <div class="cta-box flx-between gap-2">
+          <div class="cta-content">
+            <h2 class="cta-content__title">
+              Subscribe To Our <span class="text-gradient">Newsletter</span>
+            </h2>
+            <p class="cta-content__desc" style="color: black;"> 
+              Stay updated on the latest property deals, market trends, and
+              exclusive offers.
+            </p>
+            <form
+              action="#"
+              class="cta-content__form d-flex align-items-center gap-2"
+            >
+              <div class="position-relative w-100">
+                <input
+                  type="text"
+                  class="common-input common-input--withLeftIcon w-100"
+                  placeholder="Enter Your Email Address"
+                />
+                <span
+                  class="input-icon input-icon--left text-gradient font-20 line-height-1"
+                  ><i class="far fa-envelope"></i
+                ></span>
+              </div>
+              <button
+                type="submit"
+                class="btn btn-main text-uppercase flex-shrink-0"
+              >
+                Subscribe <span class="text">Now</span>
+              </button>
+            </form>
+          </div>
+          <div class="cta-content__thumb d-xl-block d-none">
+            <img src="assets/images/thumbs/cta-img.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ============================= CTA section End ===================== -->
+
+    <!-- ==================== Footer Start Here ==================== -->
+    <footer class="footer footer-two padding-y-120">
+      <div class="container container-two">
+        <div class="row gy-5">
+          <div class="col-xl-4 col-lg-6">
+            <div class="footer-item">
+              <div class="footer-item__logo">
+                <a href="index.html">
+                  <h3 style="color: white">Beta-Homes</h3></a
+                >
+              </div>
+              <p class="footer-item__desc">
+                You trusted real estate agency for property sales and rentals.
+                Wheher you're buying, selling, or renting, we make the process
+                hassle-free with xpert guidance and reliable service.
+              </p>
+
+              <h6 class="footer-item__title mt-4 mt-lg-5">
+                Lets Work Together
+              </h6>
+              <div class="row gy-4">
+                <div class="col-6">
+                  <div class="contact-info d-flex gap-2">
+                    <span class="contact-info__icon text-gradient"
+                      ><i class="fas fa-map-marker-alt"></i
+                    ></span>
+                    <div class="contact-info__content">
+                      <span class="contact-info__text text-white">Address</span>
+                      <span class="contact-info__address text-white"
+                        >Lagos,, Nigeria</span
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-6">
+                  <div class="contact-info d-flex gap-2">
+                    <span class="contact-info__icon text-gradient"
+                      ><i class="fas fa-phone"></i
+                    ></span>
+                    <div class="contact-info__content">
+                      <span class="contact-info__text text-white"
+                        >Phone Number</span
+                      >
+                      <span class="contact-info__address text-white"
+                        >000 000 000 0000</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-1 d-xl-block d-none"></div>
+          <div class="col-xl-3 col-sm-6">
+            <div class="footer-item">
+              <h6 class="footer-item__title">Useful Links</h6>
+              <ul class="footer-menu">
+                <li class="footer-menu__item">
+                  <a href="about.html" class="footer-menu__link">About Us </a>
+                </li>
+                <li class="footer-menu__item">
+                  <a href="property.html" class="footer-menu__link"
+                    >Properties
+                  </a>
+                </li>
+                <li class="footer-menu__item">
+                  <a href="project.html" class="footer-menu__link">Gallery </a>
+                </li>
+                <li class="footer-menu__item">
+                  <a href="blog-classic.html" class="footer-menu__link"
+                    >Blog
+                  </a>
+                </li>
+                <li class="footer-menu__item">
+                  <a href="contact.html" class="footer-menu__link">Contact </a>
+                </li>
+                <li class="footer-menu__item">
+                  <a href="faq.html" class="footer-menu__link">FAQs </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-1 d-xl-block d-none"></div>
+          <div class="col-xl-3 col-sm-6">
+            <div class="footer-item">
+              <h6 class="footer-item__title">Our gallery</h6>
+              <p class="footer-item__desc">
+                Explore our collection of premium properties for sale and rent
+              </p>
+
+              <form action="#" class="mt-4 subscribe-box">
+                <div class="input-group">
+                  <input
+                    type="text"
+                    class="form-control common-input common-input--md text-white"
+                    placeholder="Your mail address"
+                  />
+                  <button
+                    type="submit"
+                    class="px-4 input-group-text bg--gradient border-0 text-white"
+                  >
+                    <i class="fas fa-paper-plane"></i>
+                  </button>
+                </div>
+              </form>
+
+              <ul class="social-list">
+                <li class="social-list__item">
+                  <a
+                    href="https://www.facebook.com"
+                    class="social-list__link flx-center"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                </li>
+                <li class="social-list__item">
+                  <a
+                    href="https://www.twitter.com"
+                    class="social-list__link flx-center"
+                  >
+                    <i class="fab fa-twitter"></i
+                  ></a>
+                </li>
+                <li class="social-list__item">
+                  <a
+                    href="https://www.linkedin.com"
+                    class="social-list__link flx-center"
+                  >
+                    <i class="fab fa-linkedin-in"></i
+                  ></a>
+                </li>
+                <li class="social-list__item">
+                  <a
+                    href="https://www.pinterest.com"
+                    class="social-list__link flx-center"
+                  >
+                    <i class="fab fa-instagram"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- bottom Footer -->
+
+    <!-- ==================== Footer End Here ==================== -->
+
+    <!-- Jquery js -->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+
+    <!-- Bootstrap Bundle Js -->
+    <script src="assets/js/boostrap.bundle.min.js"></script>
+    <!-- Magnific Popup -->
+    <script src="assets/js/magnific-popup.min.js"></script>
+    <!-- Slick js -->
+    <script src="assets/js/slick.min.js"></script>
+    <!-- Counter Up Js -->
+    <script src="assets/js/counterup.min.js"></script>
+    <!-- Marquee text slider -->
+    <script src="assets/js/jquery.marquee.min.js"></script>
+    <!-- Image Uploader -->
+    <script src="assets/js/image-uploader.min.js"></script>
+    <!-- jQuery Ui Css -->
+    <script src="assets/js/jquery-ui.min.js"></script>
+    <!-- ApexChart Js -->
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+    <!-- main js -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
